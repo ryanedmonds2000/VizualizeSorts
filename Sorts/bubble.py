@@ -1,5 +1,5 @@
 # Bubble sort
-import utils
+import Sorts.utils as utils
 
 def bubblesort(list):
     for i in range(len(list), 0, -1):

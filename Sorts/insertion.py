@@ -1,5 +1,5 @@
 # Insertion sort
-import utils
+import Sorts.utils as utils
 
 def insertionsort(list):
     for i in range(len(list)):

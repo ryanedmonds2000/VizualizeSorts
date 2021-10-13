@@ -1,5 +1,5 @@
 # Selection sort
-import utils
+import Sorts.utils as utils
 
 def selectionsort(list):
     for i in range(len(list)):
