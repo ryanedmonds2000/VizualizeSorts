@@ -1,10 +1,9 @@
 # Merge sort
 
 def mergesort(list):
-    listlen = len(list)
-    if listlen == 1: return list
-    left = mergesort(list[:listlen//2])
-    right = mergesort(list[listlen//2:])
+    if len(list) == 1: return list
+    left = mergesort(list[:len(list)//2])
+    right = mergesort(list[len(list)//2:])
     i = j = 0
     leftlen = len(left)
     rightlen = len(right)
